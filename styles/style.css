@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+
+header {
+    background-image: url(../img/neon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    min-height: 100vh;
+    box-shadow: 0px 0px 10px rgb(248, 120, 0);
+    
+}
+.logo_container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+}
+.info_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 25%;
+    margin-top: 100px;
+}
+.info_container h1{
+    color: rgb(240, 214, 226);
+    font-family: 'Noto Sans Mono', monospace;
+}
+.info_container h1:hover{
+    color: rgb(241, 10, 183);
+    font-size: 20px;
+    text-shadow: 1px 1px 15px rgb(248, 120, 0);
+}
+.info_container hr{
+    background-color: rgb(202, 162, 221);
+    border: none;
+    height: 1px;
+    width: 90%;
+}
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(202, 162, 221);
+}
+header img:hover{
+    box-shadow: 0px 0px 100px rgb(248, 120, 0);
+    border: 3px solid rgb(202, 162, 221);
+}
+header nav{
+    color: white;
+}
+main{
+    background-image:url(../img/neong.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+}
+main h1{
+    color: rgb(202, 162, 221);
+    
+    font-size: 100px;
+    margin: 40px 0px 0px 40px;
+}
+main h1:hover{
+    color: rgb(241, 10, 183);
+    font-size: 110px;
+    text-shadow: 1px 1px 15px rgb(248, 120, 0);
+}
+main p{
+    color: rgb(240, 214, 226);
+
+}
+main .HR_About{
+    background-color: rgb(202, 162, 221);
+    border: none;
+    height: 1px;
+    width: 90%;
+    margin-left: 0px;
+}
+main .Dangers{
+    text-align: right;
+    margin: 0px 40px 40px 0px;
+}
+main .HR_Dangers{
+    margin-right:0px ;
+    background-color: rgb(202, 162, 221);
+    border: none;
+    height: 1px;
+    width: 90%;
+}
+main .P_About{
+    text-align: left;
+    margin: 50px 170px 50px 25px;
+}
+main .P_Dangers{
+    text-align: right;
+    margin: 50px 25px 50px 170px;
+}
+main .H1_FOOTER{
+    text-align: center;
+    margin-top: 100px;
+}
+main .H1_FOOTER:hover{
+    text-shadow: 1px 1px 15px rgb(248, 120, 0);
+}
